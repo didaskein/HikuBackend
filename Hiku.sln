@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hiku.Functions", "Hiku.Functions\Hiku.Functions.csproj", "{D39B7001-3F93-4E6E-8095-29DB11C3FAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hiku.Cmd", "Hiku.Console\Hiku.Cmd.csproj", "{E28BDAD0-33B0-4D05-A057-2F8CDE60632F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hiku.Framework", "Hiku.Framework\Hiku.Framework.csproj", "{CCE16A1C-1020-401C-AF6C-B0B270FED5D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hiku.Services", "Hiku.Services\Hiku.Services.csproj", "{540D10B1-B63D-4DEE-B59D-618727F93274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hiku.ElectricImpChipset", "Hiku.ElectricImpChipset", "{B8A0471E-948A-4AB9-A7D1-D38EAAF32F94}"
+	ProjectSection(SolutionItems) = preProject
+		Hiku.ElectricImpChipset\Agent.nut = Hiku.ElectricImpChipset\Agent.nut
+		Hiku.ElectricImpChipset\Device.nut = Hiku.ElectricImpChipset\Device.nut
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Hiku.Database", "Hiku.Database\Hiku.Database.sqlproj", "{0D707626-C9D8-4143-B2A2-4C973490F7D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D39B7001-3F93-4E6E-8095-29DB11C3FAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39B7001-3F93-4E6E-8095-29DB11C3FAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39B7001-3F93-4E6E-8095-29DB11C3FAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39B7001-3F93-4E6E-8095-29DB11C3FAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28BDAD0-33B0-4D05-A057-2F8CDE60632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28BDAD0-33B0-4D05-A057-2F8CDE60632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28BDAD0-33B0-4D05-A057-2F8CDE60632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28BDAD0-33B0-4D05-A057-2F8CDE60632F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE16A1C-1020-401C-AF6C-B0B270FED5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE16A1C-1020-401C-AF6C-B0B270FED5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE16A1C-1020-401C-AF6C-B0B270FED5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE16A1C-1020-401C-AF6C-B0B270FED5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540D10B1-B63D-4DEE-B59D-618727F93274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540D10B1-B63D-4DEE-B59D-618727F93274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540D10B1-B63D-4DEE-B59D-618727F93274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540D10B1-B63D-4DEE-B59D-618727F93274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D707626-C9D8-4143-B2A2-4C973490F7D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1D69035-DDAC-4004-9E42-7163956FC48B}
+	EndGlobalSection
+EndGlobal

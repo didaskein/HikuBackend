@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx",
+
+    "ServiceBusListenerConnectionString": "Endpoint=sb://sbMyHiku.servicebus.windows.net/;SharedAccessKeyName=TechnicalListener;SharedAccessKey=xxxxxxxxxxxxxxxxxxxxxxxxxxx=",
+    "Queue-Audio": "audio"
+  }
+}

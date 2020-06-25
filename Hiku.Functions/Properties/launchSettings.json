@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Hiku.Function": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Environment": "DEV",
+        "ASPNETCORE_ONAZURE": "false",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

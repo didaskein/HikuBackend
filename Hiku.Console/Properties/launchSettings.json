@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Hiku.Cmd": {
+      "commandName": "Project",
+      "commandLineArgs": "--environment DEV --console true "
+    }
+  }
+}
